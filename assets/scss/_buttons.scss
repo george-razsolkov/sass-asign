@@ -1,0 +1,95 @@
+#search-button-section {
+	width:100%;
+	margin:auto;
+	padding-top:1em;
+	padding-bottom: 5em;
+}
+
+
+#search-button {
+	border:none;
+	display:block;
+	margin:auto;	
+	margin-top:3%;
+	border-radius:35px;
+	padding:1em 2em 1em 2em;
+	font-size:100%;
+	color:$color-gold;
+	font-weight:bold; 
+	background:$color-dark;
+	
+	border:1px solid $color-gold;
+	
+	
+}
+
+#search-button-section button:hover {
+	background:#ff6666;
+	color:#262626;
+	border-color:$color-gold;
+	transform:scale(1.10);
+     	box-shadow: 5px 5px 15px #ccc;
+}
+/*********************************/
+.table-button {
+	border:none;
+	display:block;
+	margin:auto;	
+	border-radius:35px;
+	padding:1em 3em 1em 3em;
+	font-size:100%;
+	color:#DEB887;
+	font-weight:bold; 
+	background:$color-dark;
+	border:1px solid $color-gold;
+	
+	
+}
+
+#popular-table tr td button:hover {
+	background:#ff6666;
+	color:#262626;
+	border-color:$color-gold;
+	transform:scale(1.05);
+     	box-shadow: 5px 5px 15px #ccc;
+}
+
+/*****************************/
+
+#buttons{
+	width:25%;
+	margin:0 auto;
+	padding-top:1em;
+	padding-bottom: 1em;
+	
+}
+.profile-buttons {
+	display:inline-block;
+	margin: 0 auto;	
+	margin-left:0.5em;
+	border-radius:35px;
+	padding:1em 3em 1em 3em;
+	font-size:100%;
+	color:#DEB887;
+	font-weight:bold; 
+	background:$color-dark;
+	border:1px solid $color-gold;
+	
+}
+
+.profile-buttons:hover{
+	
+background:#ff6666;
+color:#262626;
+	border-color:$color-gold;
+	transform:scale(1.05);
+     	box-shadow: 5px 5px 15px #ccc;
+}
+
+/* last section button */
+
+
+#last-button {
+padding-left:45%;
+padding-bottom:1em;
+}

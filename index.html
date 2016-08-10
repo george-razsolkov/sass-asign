@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Template</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+<div id="conteiner">
+<section id="header">
+<header>
+			<h1 id="title">MOVIES</h1>
+</header>
+<nav id="first-menu" class="kkk">
+			<ul class="nav">
+				<li><a class="first-menu" href="#">Home</a></li>
+				
+				<li><a class="first-menu" href="#">About</a>
+					<ul class="in-ul">
+									<li class="in-ul-li"><a class="first-menu" href="#">Movies</a></li>						
+									<li class="in-ul-li"><a class="first-menu" href="#">Adversements</a></li>
+									<li class="in-ul-li"><a class="first-menu" href="#">Trailers</a></li>
+					</ul>
+				</li>
+				
+				<li><a class="first-menu" href="#">Most popular</a>
+				<ul class="in-ul">
+									<li class="in-ul-li"><a class="first-menu" href="#">Today</a></li>						
+									<li class="in-ul-li"><a class="first-menu" href="#">This week</a></li>
+									<li class="in-ul-li"><a class="first-menu" href="#">This month</a></li>
+									<li class="in-ul-li"><a class="first-menu" href="#">All time</a></li>
+					</ul>
+				</li>
+				
+				<li ><a class="first-menu" href="#">News</a></li>
+				<li><a class="first-menu" href="#">Contacts</a></li>
+				<li><a class="first-menu" href="#">Search</a></li>
+			</ul>
+		</nav>
+</section>
+
+<section id="menu">
+
+		<section id="navigation">
+			<ul>
+				<li class="sec-menu-li"><a href="#" class = "second-menu">CINEMA MOVIES</a></li>
+				<li class="sec-menu-li"><a href="#" class = "second-menu">TV SERIES</a></li>
+				<li class="sec-menu-li"><a href="#" class = "second-menu">CARTOONS</a></li>
+				<li class="sec-menu-li"><a href="#" class = "second-menu">ANIME</a></li>
+				<li class="sec-menu-li"><a href="#" class = "second-menu">NEW MOVIES</a></li>
+				
+				
+			</ul>
+		</section>
+		
+		
+
+
+<section id="carosel">
+
+	<div class="w3-content w3-section">
+	<!--  <section id="content-navigation">
+					<ul>
+				<li class="content-menu-li"><a href="#" class = "content-menu">LEARN MORE</a></li>
+				<li class="content-menu-li"><a href="#" class = "content-menu">WATCH TRAILER</a></li>
+			</ul>
+			</section>  -->
+	 
+  <img  class="mySlides" src="assets/images/bg.jpg" style="width:100%">
+  <img  class="mySlides" src="assets/images/img3.jpg" style="width:100%">
+  <img class="mySlides" src="assets/images/slide3.jpg" style="width:100%">
+	</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
+}
+</script>
+</section>
+</section>
+
+	<section id="content">
+	 <h1 id="content-header">Watch your favorite movies online</h1>
+	 		<article id="article-content">
+	 			<p id="content-text">Lorem ipsum dolor sit amet consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturientmontes nascetur ridiculus mus. Nulla dui. Fusce feugiat ma lesuada odio. Morbi nunc odio gravida atcursus nec.
+				 </p>
+	 		</article>
+	 		
+	 		<section id="genres">
+	 		<article class="article-in-genres">
+	 		  <ul>
+	 		  	<li> <input type=radio value="Horror">Horror</li>
+	 		  	<li><input type=radio value="Anime">Anime</li>
+	 		  	<li><input type=radio value="Thriller">Thriller</li>
+	 		  	<li><input type=radio value="Drama">Drama</li>
+	 		  	<li><input type=radio value="Game Show">Game Show</li>
+	 		  </ul>
+	 		</article>
+	 		
+	 		<article class="article-in-genres">
+	 			<ul>
+	 		  	<li><input type=radio value="Sport">Sport</li>
+	 		  	<li><input type=radio value="War">War</li>
+	 		  	<li><input type=radio value="Western">Western</li>
+	 		  	<li><input type=radio value="Sci-fi">Sci-fi</li>
+	 		  	<li><input type=radio value="Romance">Romance</li>
+	 		  	
+	 		  </ul>
+	 		</article>
+	 		
+	 		<article class="article-in-genres">
+	 		<ul class="list-of-genres">
+	 		  	<li  ><input type=radio value="music">Music</li>
+	 		  	<li><input type=radio value="musical">Musical</li>
+	 		  	<li><input type=radio value="festival">Festival</li>
+	 		  	<li><input type=radio value="News">News</li>
+	 		  	<li><input type=radio value="Comedy">Comedy</li>
+	 		  	
+	 		  </ul>
+	 		</article>
+	 		<section id="search-button-section">
+	 		 	 <button  id="search-button" type="submit">SEARCH</button>
+	 		</section>
+	 		</section>
+	 		
+	 		
+	</section> 
+	
+	<section id="popular-section">	
+				<h2 id="popular-header">POPULAR MOVIES</h2>
+				
+				<article id="popular-article" >
+				
+		<table id="popular-table">
+					<thead>
+			
+		</thead>
+
+			<tr>
+				<td><a href=""><img src="assets/images/table1.jpg" width="450" height="450" alt=""></a></td>
+				<td align="center"><a href=""><img src="assets/images/table2.jpg" width="450" height="450" alt=""></a></td>
+				<td align="center"><a href=""><img src="assets/images/table3.jpg" width="450" height="450" alt=""></a></td>
+				
+
+			</tr>
+			<tr>
+				<td align="center" ><button  class="table-button" type="submit">Watch trailer</button>	
+				</td>
+				<td  align="center"><button  class="table-button" type="submit">Watch trailer</button>
+				</td>
+				<td align="center"><button  class="table-button" type="submit">Watch trailer</button>
+				</td>
+				
+
+			</tr>
+<tr>
+				<td><a href=""><img src="assets/images/table4.jpg" width="450" height="450" alt=""></a></td>
+				<td align="center"><a href=""><img src="assets/images/table5.jpg" width="450" height="450" alt=""></a></td>
+				<td align="center"><a href=""><img src="assets/images/table6.jpg" width="450" height="450" alt=""></a></td>
+				
+
+			</tr>
+			
+			<tr>
+				<td align="center" > <button  class="table-button" type="submit">Watch trailer</button>
+				</td>
+				<td  align="center"><button  class="table-button" type="submit">Watch trailer</button>	
+				</td>
+				<td align="center"><button  class="table-button" type="submit">Watch trailer</button>
+				</td>
+			</tr>
+			</table>
+		</article>
+</section>
+
+<section id="profile-section">
+	<h3 id="profile-header">George Washington</h3>
+	<p  class="article-texts" id="profile-text">likes farming, hunting and breeding dogs. I enjoy horseback riding and was an excellent horseman. In addition, I have  a passion for interior decorating and design. I love to catch my own food.</p>
+	<article id="profile-photo-aritlce">
+		<div id="image">
+		<img alt="" src="assets/images/profile.jpeg" id="article-image">
+		</div>
+	</article>
+		<p  class="article-texts"id="profile-interest-test"> Interested in action and drama movies..</p>
+		<section id="buttons">
+		
+		<button  class="profile-buttons" type="submit">View profile</button>
+		<button  class="profile-buttons" type="submit">Add friend</button>
+		
+		</section>
+	</section>
+	
+
+	
+	<section class="content bgcolor-1" id="mailSection">
+		<h1 id="last-header">Mail Us</h1>
+
+		<span class="input input--haruki"> <input
+			class="input__field input__field--haruki" type="text" id="input-1" />
+			<label class="input__label input__label--haruki" for="input-1">
+				<span class="input__label-content input__label-content--haruki">Your
+					Name</span>
+		</label>
+		</span> <span class="input input--haruki"> <input
+			class="input__field input__field--haruki" type="text" id="input-2" />
+			<label class="input__label input__label--haruki" for="input-2">
+				<span class="input__label-content input__label-content--haruki">Your
+					email</span>
+		</label>
+		</span><br> <span class="input3 input3--haruki"> <input
+			class="input__field input__field--haruki" type="text" id="input-3" />
+			<label class="input__label input__label--haruki" for="input-3">
+				<span class="input__label-content input__label-content--haruki">Your
+					Message</span>
+		</label>
+		</span>
+<div id="last-button">	
+ <input class="profile-buttons" type="submit" value="SEND" id="send-but">
+</div>		</section>
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+/*first*/
+#header {
+	width: 100%;
+	background:$color-dark;
+	margin:0 auto;
+	display:inline-block;
+	padding:0;
+}
+
+/*second section*/
+
+#content-header {
+	width:100%;
+	text-align:center;	
+	padding-top:1.5em;
+	font-weight: bold;
+	font-size: 300%;
+	color:$color-gold;
+}
+
+/*popular section*/
+
+#popular-header {
+	width:100%;
+	text-align: center;
+	font-size: 300%;
+	font-weight: bold;
+	background:$color-dark;
+	padding-top:1em;
+	color:$color-gold;
+	padding-bottom: 1em;
+}
+
+/*profile-section*/
+
+#profile-header {
+	width:100%;
+	text-align: center;
+	padding-top:1em;
+	font-weight: bold;
+	font-size: 250%;
+	color:$color-gold;
+}

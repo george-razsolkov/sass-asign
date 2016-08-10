@@ -1,0 +1,264 @@
+@import "config-variable";
+@import "reset";
+@import "buttons";
+@import "input";
+@import "header";
+
+body {
+	margin: 0;
+    padding: 0;
+}
+
+#container {
+	width: 1170px;
+	margin: 0 auto;	
+	border:1px solid black;
+	
+}
+/* section header */
+
+
+
+#title {
+	width:30%;
+	float: left;
+	font-weight: bold;
+	font-size: 3.2em;
+	padding-top:1em;
+	padding-left:4em;
+	padding-bottom:0.5em;
+	color:$color-gold;
+}
+
+nav ul {
+	display: inline-block;
+	width: 50%;
+	float:right;
+	padding-top:4em;
+	padding-right:10em;
+	box-sizing:border-box;
+}
+#first-menu ul li {
+	float: left;
+	width: 16%;
+	text-align: center;
+	position:relative;
+	padding:0.3em 0 0.3em 0;
+}
+.first-menu {
+	text-decoration: none;
+	color:	$color-gold;
+	font-size: 110%;
+	
+}
+.in-ul{
+	position: fixed;
+	margin-left:0;
+	display:none;
+	float:left;
+	padding-top:0.5em;	
+	
+}
+
+#first-menu ul li:hover {
+	background-color:#ff6666;
+	border-radius:35px;
+	box-shadow: 5px 5px 15px #ccc;
+}
+
+#first-menu ul li a:hover {
+	color:#262626;
+}
+
+.nav li:hover >	ul {
+		display: block;
+}
+
+.in-ul-li{
+	border:1px solid $color-gold;
+	border-radius:35px;
+	padding:0;
+	margin:0 0 0 0.5em;
+}
+/*END HEADER*/
+
+/*START SECOND MENU*/
+
+#menu {
+	width: 100%;
+	background:$color-pink;
+	margin:0 auto;
+	display:inline-block;
+	padding:0;
+}
+#navigation {
+	display: inline-block;
+	width: 100%;
+	float:left;
+	box-sizing:border-box;
+	padding-top:2em;
+	padding-bottom: 2em;
+	padding-left:19%;
+}
+.sec-menu-li{
+	float: left;
+	width: 16%;
+	text-align: center;
+	position:relative;
+	padding:0.3em 0 0.3em 0;
+}
+
+.second-menu {
+	text-decoration: none;
+	padding:0.8em;
+	color:$color-gold;
+	font-weight: bold;
+	font-size: 	large;
+}
+
+#navigation ul li:hover {
+	background-color:white;
+	border-radius:35px;
+}
+
+#navigation ul li a:hover{
+	color:#262626;
+}
+/*END NAVIGATION*/
+
+/*Start Content */
+
+/* carousel ot neta*/
+
+#content {
+	margin:0 auto;
+	width:100%;
+	background:$color-dark;
+	border-top:#D2691E;
+}
+
+#article-content{
+	width:100%;
+	margin:auto;
+}
+#content-text {
+	width:70%;	
+	text-align:center;
+	margin-top:3em;
+	box-sizing:border box;
+	color:$color-gold;
+	margin-left:15%;
+	font-size: 120%;
+}
+
+#genres {
+	width:100%;
+	margin:0 auto;
+	box-sizing:border box;
+	margin-top: 2em;
+	
+}
+.article-in-genres {
+	width:33%;
+	text-align: center;
+		display:inline-block;
+	
+}
+
+.article-in-genres ul li {
+	padding:0.5em;
+	font-weight: bold;
+	font-size: x-large;	
+	color:$color-gold;
+	cursor: crosshair;
+}
+
+.article-in-genres ul li input {
+	display:inline-block;
+	cursor: crosshair;
+	}
+	
+.article-in-genres ul li:hover{
+	color:$color-pink;
+}
+
+#popular-section {
+	width:100%;
+	margin:0 auto;
+	border-top: 2px solid #D2691E;
+	border-bottom: 2px solid $color-gold;
+}
+
+#popular-article {
+	width:100%;
+	margin:0 auto;
+	background:$color-dark;
+}
+
+#popular-table {
+	width:90%;
+margin:0 auto;	}
+
+#popular-table tr {
+	margin-bottom: 1em;
+}
+#popular-table tr  td{
+	padding-bottom: 1em;
+}
+
+#popular-table tr td img{
+	border:2px solid $color-gold;
+}
+#popular-table tr td img:hover {
+     transform:scale(1.05);
+     	box-shadow: 5px 5px 15px #ccc;
+}
+/* POCHVA PROFILE */
+
+#profile-section {
+	width:100%;
+	margin:0 auto;
+	background:#262626;
+	border-bottom: 2px solid $color-gold;
+}
+
+
+
+#profile-header:hover{
+	color:$color-pink;
+	cursor: pointer;
+	text-shadow: 0 0 20px #ccc;
+}
+.article-texts{
+	width:60%;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 2em;
+	color: $color-gold;
+	font-size: 120%;
+}
+
+#profile-photo-aritlce {
+	width:100%;
+	margin:0 auto;
+	
+}
+#image {
+	width:30%;
+	magrin:0 auto;
+	margin-left: 38%;
+	border-radius:50%;
+	
+}
+#article-image {
+display:inline-block;
+margin-top: 2em;
+border-radius:50%;
+}
+#article-image:hover{
+	 transform:scale(1.09);
+     	box-shadow: 5px 5px 15px #ccc;
+     	color:#ff6666;
+     	cursor:pointer;
+}
+/* poslednata zapochva - v inputs fail*/
